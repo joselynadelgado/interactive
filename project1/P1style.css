@@ -1,0 +1,14 @@
+body{
+	background-color: lightblue;
+}
+.box {
+	background-color: palegoldenrod;
+  width: 400px;
+  border: 15px solid royalblue;
+  padding: 60px;
+  margin-left: 432px;
+
+}
+a{
+	color: black;
+}
