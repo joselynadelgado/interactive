@@ -3,11 +3,12 @@ body{
 }
 .box {
 	background-color: palegoldenrod;
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
   border: 15px solid royalblue;
   padding: 60px;
-  margin-left: 432px;
-
+position: relative;
+margin: 0 auto;
 }
 a{
 	color: black;
