@@ -1,4 +1,4 @@
-body {
+.body {
 
   background-color: lightblue;
   font-family: Oswald;
@@ -11,7 +11,7 @@ body {
 
 }
 
-ul{
+.ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -24,7 +24,7 @@ ul{
 
 }
 
-li{
+.li{
 	background-color: white;
 	border: solid black;
 	margin:  0.5em;
