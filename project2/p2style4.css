@@ -1,0 +1,154 @@
+
+
+body {
+      
+      padding: 4em;
+      color: white;
+      font-family: 'Courier', monospace;
+      background-color: black;
+}
+
+.p{
+      position: relative;
+}
+
+.line {
+      position: relative;
+      
+      white-space: nowrap;
+      overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter1 {
+      animation: typewriter 4s steps(40) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter2 {
+      animation: typewriter 4s steps(40) 5s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter3 {
+      animation: typewriter 4s steps(40) 9s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter4 {
+      animation: typewriter 4s steps(40) 13s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter5 {
+      animation: typewriter 4s steps(40) 17s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter6 {
+      animation: typewriter 4s steps(40) 21s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter7 {
+      animation: typewriter 4s steps(40) 25s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter8 {
+      animation: typewriter 4s steps(40) 29s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter9 {
+      animation: typewriter 4s steps(40) 32s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter10 {
+      animation: typewriter 4s steps(40) 36s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter11 {
+      animation: typewriter 4s steps(40) 40s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter12 {
+      animation: typewriter 4s steps(40) 44s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter13 {
+      animation: typewriter 4s steps(40) 48s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter14 {
+      animation: typewriter 4s steps(40) 52s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter15 {
+      animation: typewriter 4s steps(40) 56s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter16 {
+      animation: typewriter 4s steps(40) 60s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter17 {
+      animation: typewriter 4s steps(40) 64s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter18 {
+      animation: typewriter 4s steps(40) 68s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter19 {
+      animation: typewriter 4s steps(40) 72s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter20 {
+      animation: typewriter 4s steps(40) 83s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter21 {
+      animation: typewriter 4s steps(40) 87s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter22 {
+      animation: typewriter 4s steps(40) 90s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter23 {
+      animation: typewriter 4s steps(40) 94s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter24 {
+      animation: typewriter 4s steps(40) 98s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+
+@keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 50em;
+      }
+}
+
+
