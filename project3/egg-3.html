@@ -2,7 +2,7 @@
   
 <head>
   
-  <title> Egg test </title>
+  <title> Egg Hunt </title>
   
   <link rel="stylesheet" href= "egg-home-stylesheet.css">
 
@@ -14,25 +14,34 @@
  <a href="../index.html">Home</a> 
     <br>
     <br>
-   
     <a href="egg-4.html" style= "color: white;">Next</a> 
 
-  <center>
-  <div class= "egg" style= "background-color: palegoldenrod;">
-    <p class= "paragraph1" >
-      <br> <br> <br> <br> <br>
-      Clue 2
-    </p>
+<center>
 
-<br> <br> <br> <br> <br> <br> <br>
+<button class="egg-button-pages" onclick="openForm()" style= "background-color: palegreen;" >Clue 3</button>
+  <br> <br> <br>
 
-    <p> It's been a long day in DC and you can use a quick snack. Where do you go?
-    </p>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+  </form>
+  
+  <p>
+    Take a left up the stairs, down the hall are the 2 armchairs. A story, they say, can take you to a place far away. But a book still needs a place to stay. 
+  </p>
+  <br>
+  
+</div>
 
-<br> <br>
+  
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
 
-  </div>
-  </center>
+</script>
+
+</center>
+
 </body>
 
   </html>

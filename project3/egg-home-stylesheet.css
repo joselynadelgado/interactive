@@ -1,19 +1,45 @@
-body{
-  font-family: Helvetica, sans-serif;
-}
+body {font-family: Arial, Helvetica, sans-serif;}
 
-.egg {
-  width: 410px;
-    height: 540px;
+
+.egg-button-home {
+  color: white;
+  cursor: pointer;
+    width: 430px;
+    height: 620px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    font-size: 70px;
 }
 
-.paragraph1{
-  font-family: Helvetica, sans-serif;
-    font-size: 60px;
+.egg-button-pages {
+  color: white;
+  cursor: pointer;
+    width: 430px;
+    height: 620px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    font-size: 100px;
 }
 
-.button{
+
+.form-popup {
+  display: none;
+  position: relative;
+  bottom: 0;
+  border: 3px solid lightblue;
+  max-width: 500px;
+  min-width: 200px;
+  font-size: 30px;
+  padding: 2%;
+}
+
+
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.start-button{
 color: white;
 background-color: lightblue;
 text-decoration: none;

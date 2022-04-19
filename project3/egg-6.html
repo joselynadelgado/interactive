@@ -2,7 +2,7 @@
   
 <head>
   
-  <title> Egg test </title>
+  <title> Egg Hunt </title>
   
   <link rel="stylesheet" href= "egg-home-stylesheet.css">
 
@@ -14,26 +14,34 @@
  <a href="../index.html">Home</a> 
     <br>
     <br>
-   
     <a href="egg-7.html" style= "color: white;">Next</a> 
 
-  <center>
-  <div class= "egg" style= "background-color: palevioletred;">
-    <p class= "paragraph1" >
-      <br> <br> <br> <br> <br>
-      Clue 5
-    </p>
+<center>
 
-<br> <br> <br> <br> <br> <br> <br>
+<button class="egg-button-pages" onclick="openForm()" style= "background-color: palegoldenrod;" >Clue 6</button>
+  <br> <br> <br>
 
-    <p>
-      The flu has been making its way around campus... Maybe you should check out the nearest pharmacy to grab a prescription.
-    </p>
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+  </form>
+  
+  <p>
+    It's free for the first 2 hours.
+  </p>
+  <br>
+  
+</div>
 
-<br> <br>
+  
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
 
-  </div>
-  </center>
+</script>
+
+</center>
+
 </body>
 
   </html>
