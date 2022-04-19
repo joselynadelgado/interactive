@@ -6,12 +6,11 @@ body{
   width: 410px;
     height: 540px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  font-size: 70px ;
 }
 
 .paragraph1{
   font-family: Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 70px;
 }
 
 .button{
