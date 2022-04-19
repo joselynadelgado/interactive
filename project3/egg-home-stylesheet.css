@@ -4,8 +4,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .egg-button-home {
   color: white;
   cursor: pointer;
-    width: 430px;
-    height: 620px;
+    width: 600px;
+    height: 820px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     font-size: 70px;
 }
@@ -13,8 +13,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .egg-button-pages {
   color: white;
   cursor: pointer;
-    width: 430px;
-    height: 620px;
+    width: 600px;
+    height: 820px;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     font-size: 100px;
 }
@@ -28,7 +28,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
   max-width: 500px;
   min-width: 200px;
   font-size: 30px;
-  padding: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  line-height: 60px;
+
 }
 
 
