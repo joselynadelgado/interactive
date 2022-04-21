@@ -7,6 +7,7 @@
 @media only screen and (max-width: 800px) {
   body {
     background-color: peachpuff;
+    font-size: 10px;
   }
 
 }
